@@ -1,0 +1,31 @@
+#users-conatiner{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.user{
+    background-color: lightgray;
+    width: 300px;
+    height: 140px;
+    border: 2px solid;
+    border-radius: 7px;
+    margin-bottom: 20px;
+}
+
+.user:hover{
+    background-color: lightslategrey;
+}
+p{
+    padding-left: 7px;
+    font-size: 21px;
+}
+
+span{
+    color: lightskyblue;
+    text-decoration: underline;
+}
+
+h1{
+    font-size: 41px;
+    text-decoration: underline;
+}
